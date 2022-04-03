@@ -2,17 +2,12 @@ from distutils.log import debug
 from posixpath import split
 from flask import Flask, render_template, request, send_from_directory
 import base64
-from github import Github
 import requests
 from flask import Markup
 import gunicorn
 import requests
 import json
-
 import os
-from flask import Flask,render_template,request,redirect
-import smtplib, ssl
-from flask_mail import Mail, Message
 import json
 from ast import literal_eval
 #defining flask name
